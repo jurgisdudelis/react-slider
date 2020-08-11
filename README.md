@@ -16,11 +16,11 @@
 Requires Node and Yarn installation.
 
 - Node installation avilable at: https://nodejs.org/en/ 
--- Check version running command ```node -v``` in terminal:
+1. Check version running command ```node -v``` in terminal:
 ```
 v12.16.2
 ```
--- Check version running command ```npm -v``` in terminal:
+2. Check version running command ```npm -v``` in terminal:
 ```
 6.14.4
 ```
