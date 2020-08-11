@@ -17,20 +17,20 @@ Requires Node and Yarn installation.
 Node installation avilable at: https://nodejs.org/en/
 
 Checking versions using terminal:
-node -v
 ```
+node -v
 v12.16.2
 ```
-npm -v
 ```
+npm -v
 6.14.4
 ```
 
 Yarn installation
+```
 npm install -g yarn
 
 yarn -v
-```
 1.22.4
 ```
 #### Dependencies
@@ -62,8 +62,10 @@ yarn add babel-cli@6.24.1 babel-core@6.25.0 babel-loader@7.1.1 babel-plugin-tran
 ```
  
  ## Start
+ 
+ To start application run following command on terminal
  ```
-  yarn run dev-server
-  ````
+ yarn run dev-server
+ ```
   
   Project is running at http://localhost:8080/
