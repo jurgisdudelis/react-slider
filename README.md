@@ -11,7 +11,7 @@
 
 ## Setup
 
-###Node.js and Yarn
+#### Node.js and Yarn
 
 Requires Node and Yarn installation.
 Node installation aviable at: https://nodejs.org/en/
@@ -33,7 +33,7 @@ yarn -v
 ```
 1.22.4
 ```
-###Dependencies
+#### Dependencies
 
 Required dependencies:
 ```
