@@ -14,9 +14,9 @@
 #### Node.js and Yarn
 
 Requires Node and Yarn installation.
-Node installation aviable at: https://nodejs.org/en/
+Node installation avilable at: https://nodejs.org/en/
 
-Checking versions using terminal
+Checking versions using terminal:
 node -v
 ```
 v12.16.2
