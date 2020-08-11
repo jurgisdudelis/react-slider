@@ -1,0 +1,23 @@
+//Slider Indicator
+
+  .slider__indicator {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: $off-grey;
+    cursor: pointer;
+    opacity: .2;
+    transition: opacity .15s;
+
+    &:hover {
+      opacity: .5;
+    }
+
+    &--active {
+      &,
+      &:hover {
+        opacity: .75;
+      }
+    }
+  }

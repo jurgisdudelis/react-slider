@@ -1,0 +1,16 @@
+//Slider Slides
+
+  .slider__slide {
+    display: none;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (max-width: $breakpoint-desktop){
+      padding-right: 75px;
+      padding-left: 75px;
+    }
+    &--active {
+      display: block;
+    }
+  }

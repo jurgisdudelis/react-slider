@@ -1,0 +1,28 @@
+//Slider Arrow
+
+.slider__arrow {
+    position: absolute;
+    display: block;
+    top: 50%;
+    color: $off-grey;
+    cursor: pointer;
+    opacity: .75;
+    transform: translateY(-50%);
+    transition: opacity .3s;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &:hover {
+      opacity: .3;
+    }
+
+    &--left {
+      left: 36px;
+    }
+
+    &--right {
+      right: 36px;
+    }
+}

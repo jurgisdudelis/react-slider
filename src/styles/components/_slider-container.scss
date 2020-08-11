@@ -1,0 +1,10 @@
+//Slider Container
+
+  .slider-container {
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 300px;
+    min-width: 400px;
+  }

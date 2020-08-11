@@ -1,0 +1,14 @@
+//Slider Indicators
+
+  .slider__indicators {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+
+    li {
+      &:nth-of-type(n + 2){
+        margin-left: 35px;
+      }
+    }
+  }
