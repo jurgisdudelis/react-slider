@@ -11,7 +11,7 @@
 
 ## Setup
 
-####Node.js and Yarn
+###Node.js and Yarn
 
 Requires Node and Yarn installation.
 Node installation aviable at: https://nodejs.org/en/
@@ -33,7 +33,7 @@ yarn -v
 ```
 1.22.4
 ```
-####Dependencies
+###Dependencies
 
 Required dependencies:
 ```
@@ -58,21 +58,7 @@ Required dependencies:
 It is adviced to use exact versions. Dependecies can be installed using ```yarn add``` or ```npm install``` commands.
 
 ```
-yarn add babel-cli@6.24.1 
-babel-core@6.25.0 
-babel-loader@7.1.1 
-babel-plugin-transform-class-properties@6.24.1 
-babel-preset-env@1.5.2 
-babel-preset-react@6.24.1 
-webpack@3.1.0 
-webpack-dev-server@2.5.1 
-live-server@1.2.1 
-react@16.13.1 
-react-dom@16.13.1 
-css-loader@0.28.4 
-node-sass@4.14.1 
-sass-loader@7.3.1 
-style-loader@0.18.2
+yarn add babel-cli@6.24.1 babel-core@6.25.0 babel-loader@7.1.1 babel-plugin-transform-class-properties@6.24.1 babel-preset-env@1.5.2 babel-preset-react@6.24.1 webpack@3.1.0 webpack-dev-server@2.5.1 live-server@1.2.1 react@16.13.1 react-dom@16.13.1 css-loader@0.28.4 node-sass@4.14.1 sass-loader@7.3.1 style-loader@0.18.2
 ```
  
  ## Start
