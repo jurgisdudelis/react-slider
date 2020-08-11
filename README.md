@@ -25,11 +25,11 @@ v12.16.2
 6.14.4
 ```
 
-Yarn installation
-```
-npm install -g yarn
+- Run command ```npm install -g yarn``` to install Yarn
 
-yarn -v
+3. Check version ```yarn -v```
+
+```
 1.22.4
 ```
 #### Dependencies
