@@ -11,7 +11,7 @@
 
 ## Setup Environment
 
-#### Node.js and Yarn
+### Node.js and Yarn
 
 Requires Node and Yarn installation.
 
@@ -32,7 +32,7 @@ v12.16.2
 ```
 1.22.4
 ```
-#### Dependencies
+### Dependencies
 
 Required dependencies:
 ```
