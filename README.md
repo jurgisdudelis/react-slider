@@ -82,7 +82,7 @@ yarn add babel-cli@6.24.1 babel-core@6.25.0 babel-loader@7.1.1 babel-plugin-tran
  
  ## Start
  
- To start the application run following command on terminal
+ To start the application run following command in terminal
  ```
  yarn run dev-server
  ```
