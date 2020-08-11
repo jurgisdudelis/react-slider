@@ -6,8 +6,8 @@
 - Support swipes
 - Work for any HTML content
 - Supports multiple items on the screen
-- Supports infinite option
-- Supports scrolling to a selected slide (go to X slide)
+- Supports infinite options
+- Supports scrolling to the selected slide (go to X slide)
 
 ## Setup
 
