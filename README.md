@@ -2,17 +2,17 @@
 
 ## Description
 
--Works on mobile and desktop devices
--Support swipes
--Work for any HTML content
--Supports multiple items on the screen
--Supports infinite option
--Sopports scrolling to a selected slide (go to X slide)
+- Works on mobile and desktop devices
+- Support swipes
+- Work for any HTML content
+- Supports multiple items on the screen
+- Supports infinite option
+- Sopports scrolling to a selected slide (go to X slide)
 
 
 
 
-
+```
 "dependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
@@ -30,8 +30,10 @@
     "webpack": "3.1.0",
     "webpack-dev-server": "2.5.1"
   }
-  
+ ``` 
+ 
+ ```
   yarn run dev-server
-  
+  ````
   
   Project is running at http://localhost:8080/
