@@ -7,11 +7,9 @@ ul {
 
 a {
   color: $secundary-color;
-  //opacity: 1;
   transition: color .5s;
 
   &:hover {
     color: $react-color;
-    //opacity: .0;
   }
 }

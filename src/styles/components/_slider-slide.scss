@@ -7,10 +7,6 @@
     margin-left: auto;
     height: 260px;
 
-    @media (max-width: $breakpoint-desktop){
-      padding-right: 75px;
-      padding-left: 75px;
-    }
     &--active {
       display: block;
     }
