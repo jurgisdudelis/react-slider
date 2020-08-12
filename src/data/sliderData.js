@@ -6,25 +6,25 @@ const sliderData = [
     description: "Here is a short description of the content"
   },
   {
-    content: <img src="https://hackernoon.com/hn-images/1*KBGdMaU_emZX4XR1AvkD4A.gif" alt="React Gif" width="516" height="150"></img>,
-    description: "React Gif using <img> attribute"
+    content: <img src="https://www.athmin.com/img/hiredeveloper/gif/react.gif" alt="React Gif" width="200" height="200"></img>,
+    description: "React gif using <img> attribute"
   },
   {
-    content: <iframe width="340" height="190" src="https://www.youtube.com/embed/gx4rsZkCCss" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+    content: "Item Three",
+    description: "This is Item Three"
+  },
+  {
+    content: <iframe width="311" height="200" src="https://www.youtube.com/embed/gx4rsZkCCss" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
     description: "Embedded video using <iframe> attribute"
   },
   {
-    content: <a href="https://www.youtube.com/">YouTube</a>,
-    description: "External link using <a> attribute"
-  },
-  {
     content: "Item Five",
-    description: "Description of the Item Five"
+    description: "This is Item Five"
   },
   {
-    content: "Item Six",
-    description: "Description of the Item Six"
-  },
+    content: <a href="https://reactjs.org/">reactjs.org</a>,
+    description: "External link using <a> attribute"
+  }
 ];
 
 export default sliderData;
