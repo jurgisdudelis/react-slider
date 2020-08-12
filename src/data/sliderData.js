@@ -14,7 +14,7 @@ const sliderData = [
     description: "Embedded video using <iframe> attribute"
   },
   {
-    content: <a href="https://www.youtube.com/">youtube.com</a>,
+    content: <a href="https://www.youtube.com/">YouTube</a>,
     description: "External link using <a> attribute"
   },
   {
