@@ -19,11 +19,11 @@ const sliderData = [
   },
   {
     content: "Item Five",
-    description: "..."
+    description: "Description of the Item Five"
   },
   {
     content: "Item Six",
-    description: "..."
+    description: "Description of the Item Six"
   },
 ];
 
