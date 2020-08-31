@@ -5,9 +5,13 @@
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    height: 260px;
+    height: 150px;
 
     &--active {
       display: block;
+    }
+
+    @media (min-width: $desktop-breakpoint ) {
+      height: 260px;
     }
   }

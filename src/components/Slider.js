@@ -81,11 +81,11 @@ class Slider extends React.Component {
         let endTouch = this.touch(e).clientX;
         let startTouch = this.state.startTouch;
 
-        if (startTouch > endTouch) {
+        if (Math.abs(startTouch - endTouch) > 25 && startTouch > endTouch) {
             this.goToNextSlide(e);
         }
 
-        if (startTouch < endTouch) {
+        if (Math.abs(startTouch - endTouch) > 25 && startTouch < endTouch) {
             this.goToPrevSlide(e);
         }
     };
