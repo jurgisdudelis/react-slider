@@ -1,5 +1,5 @@
 # Pure React slider using only "react", "react-dom" + build related dependencies
-
+## This site was built using [Live Here](https://pure-react-slider.herokuapp.com/)
 ## Description
 
 - Works on mobile and desktop devices
