@@ -1,12 +1,11 @@
 //Slider Container
 
   .slider-container {
-    background-color: $primary-color;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    @media (min-width: $desktop-breakpoint ) {
-      min-height: 300px;
-    }
+    // @media (min-width: $desktop-breakpoint ) {
+    //   min-height: 300px;
+    // }
 }

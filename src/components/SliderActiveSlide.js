@@ -10,6 +10,9 @@ class SliderActiveSlide extends React.Component {
             : "slider__slide"
         }
       >
+        <p className="slider-slide__image">
+          {this.props.slide.img}
+        </p>
         <p className="slider-slide__content">
           {this.props.slide.content}</p>
         <p className="slider-slide__description">

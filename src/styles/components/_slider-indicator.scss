@@ -2,8 +2,8 @@
 
   .slider__indicator {
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background-color: $secundary-color;
     cursor: pointer;
@@ -19,5 +19,10 @@
       &:hover {
         opacity: .75;
       }
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+      width: 20px;
+      height: 20px;
     }
   }
