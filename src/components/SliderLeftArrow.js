@@ -1,16 +1,14 @@
 import React from 'react';
 
-class SliderLeftArrow extends React.Component {
-  render() {
-    return (
-      <div
-        className="slider__arrow slider__arrow--left"
-        onClick={this.props.onClick}
-      >
-        <i className="fas fa-chevron-left fa-3x"></i>
-      </div>
-    );
-  }
+const SliderLeftArrow = (props) => {
+  return (
+    <div
+      className="slider__arrow slider__arrow--left"
+      onClick={props.onClick}
+    >
+      <i className="fas fa-chevron-left fa-4x"></i>
+    </div>
+  );
 }
 
-  export default SliderLeftArrow;
+export default SliderLeftArrow;
