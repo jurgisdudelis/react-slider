@@ -41,6 +41,24 @@ Used dependencies:
   }
  ``` 
 Dependecies can be installed using ```npm install``` or```yarn add``` commands.
+
+ ## Scripts
+ ```
+   "scripts": {
+    "dev-server": "webpack-dev-server",
+    "serve": "live-server public/",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
+  }
+ ```
+ Express is used to establish the Heroku live server [Available Here](https://pure-react-slider.herokuapp.com/)
+ Scripts below are for the Heroku
+ ```
+   "start": "node server/server.js",
+   "heroku-postbuild": "yarn run build:prod"
+ ```
  
  ## Start
  
