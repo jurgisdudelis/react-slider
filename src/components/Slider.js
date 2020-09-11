@@ -5,8 +5,6 @@ import SliderRightArrow from './SliderRightArrow';
 import SliderIndicator from './SliderIndicator';
 import SliderActiveSlide from './SliderActiveSlide';
 
-const sliderContainer = document.querySelector(".slider-container");
-
 class Slider extends React.Component {
     constructor(props) {
       super(props);
@@ -91,13 +89,13 @@ class Slider extends React.Component {
     };
   
     render() {
-        sliderContainer.addEventListener('mousedown', this.touchStart, false);
-        sliderContainer.addEventListener('touchstart', this.touchStart, false);
+      document.getElementById('app').addEventListener('mousedown', this.touchStart, false);
+      document.getElementById('app').addEventListener('touchstart', this.touchStart, false);
 
-        sliderContainer.addEventListener('touchmove', e => { e.preventDefault() }, false);
+      document.getElementById('app').addEventListener('touchmove', e => { e.preventDefault() }, false);
 
-        sliderContainer.addEventListener('mouseup', this.touchEnd, false);
-        sliderContainer.addEventListener('touchend', this.touchEnd, false);  
+      document.getElementById('app').addEventListener('mouseup', this.touchEnd, false);
+      document.getElementById('app').addEventListener('touchend', this.touchEnd, false);  
   
       return (
         <div className="slider">
