@@ -1,16 +1,15 @@
 //Slider Indicators
+.slider-indicators {
+  position: relative;
+  top: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 25px;
 
-  .slider-indicators {
-    position: relative;
-    top: 85%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 25px;
-
-    li {
-      &:nth-of-type(n + 2){
-        margin-left: 20px;
-      }
+  li {
+    &:nth-of-type(n + 2){
+      margin-left: 20px;
     }
   }
+}

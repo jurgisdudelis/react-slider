@@ -4,15 +4,6 @@ ul {
   list-style-type: none;
 }
 
-a {
-  color: $secundary-color;
-  transition: color .5s;
-
-  &:hover {
-    color: $react-color;
-  }
-}
-
 img {
   width: 100%;
   height: 160px;
