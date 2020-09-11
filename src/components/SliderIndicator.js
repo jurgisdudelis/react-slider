@@ -6,8 +6,8 @@ const SliderIndicator = (props) => {
       <a
         className={
           props.index == props.activeIndex
-            ? "slider__indicator slider__indicator--active"
-            : "slider__indicator"
+            ? "slider-indicator slider-indicator--active"
+            : "slider-indicator"
         }
         onClick={props.onClick}
       />

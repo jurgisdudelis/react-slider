@@ -1,6 +1,6 @@
 //Slider Indicator
 
-  .slider__indicator {
+  .slider-indicator {
     display: block;
     width: 16px;
     height: 16px;
@@ -9,6 +9,7 @@
     cursor: pointer;
     opacity: .2;
     transition: opacity .15s;
+    
 
     &:hover {
       opacity: .5;
@@ -22,7 +23,7 @@
     }
 
     @media (min-width: $desktop-breakpoint ) {
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
     }
   }

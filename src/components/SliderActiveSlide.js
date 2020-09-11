@@ -22,3 +22,6 @@ const SliderActiveSlide = (props) => {
 }
 
 export default SliderActiveSlide;
+
+
+

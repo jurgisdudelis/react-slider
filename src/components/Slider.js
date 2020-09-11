@@ -102,7 +102,7 @@ class Slider extends React.Component {
       return (
         <div className="slider">
         
-          <ul className="slider__slides">
+          <ul>
             {this.props.slides.map((slide, index) =>
               <SliderActiveSlide
                 key={index}
@@ -115,8 +115,7 @@ class Slider extends React.Component {
 
           <SliderLeftArrow onClick={e => this.goToPrevSlide(e)} />
           <SliderRightArrow onClick={e => this.goToNextSlide(e)} />
-  
-          <ul className="slider__indicators">
+          <ul className="slider-indicators">
             {this.props.slides.map((slide, index) =>
               <SliderIndicator
                 key={index}
