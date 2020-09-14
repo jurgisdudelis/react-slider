@@ -3,6 +3,7 @@ import SliderLeftArrow from "./SliderLeftArrow";
 import SliderRightArrow from "./SliderRightArrow";
 import SliderIndicator from "./SliderIndicator";
 import SliderActiveSlide from "./SliderActiveSlide";
+import slides from '../data/slides';
 
 class Slider extends React.Component {
   constructor(props) {
@@ -28,7 +29,6 @@ class Slider extends React.Component {
   goToPrevSlide(e) {
     e.preventDefault();
     let index = this.state.activeIndex;
-    let { slides } = this.props;
     let slidesLength = slides.length;
 
     if (index < 1) {
@@ -44,7 +44,6 @@ class Slider extends React.Component {
   goToNextSlide(e) {
     e.preventDefault();
     let index = this.state.activeIndex;
-    let { slides } = this.props;
     let slidesLength = slides.length - 1;
 
     if (index === slidesLength) {
@@ -104,8 +103,7 @@ class Slider extends React.Component {
     return (
       <div className="slider">
         <div>
-          {" "}
-          {this.props.slides.map((slide, index) => (
+          {slides.map((slide, index) => (
             <SliderActiveSlide
               key={index}
               index={index}
@@ -117,8 +115,7 @@ class Slider extends React.Component {
         <SliderLeftArrow onClick={(e) => this.goToPrevSlide(e)} />
         <SliderRightArrow onClick={(e) => this.goToNextSlide(e)} />
         <div className="indicators">
-          {" "}
-          {this.props.slides.map((slide, index) => (
+          {slides.map((slide, index) => (
             <SliderIndicator
               key={index}
               index={index}

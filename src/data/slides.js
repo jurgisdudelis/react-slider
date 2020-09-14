@@ -1,6 +1,6 @@
 import React from 'react';
 
-const sliderData = [
+const slides = [
   {
     content: "Item One",
     description: "Here is a short description of the Item One",
@@ -23,4 +23,4 @@ const sliderData = [
   }
 ];
 
-export default sliderData;
+export default slides;
