@@ -87,14 +87,14 @@ class Slider extends React.Component {
       <div className="slider">
         <div>
           {this.props.slides.map((slide, index) =>
-            <SliderActiveSlide key={index} index={index} activeIndex={this.state.activeIndex} slide={slide} />
+            <SliderActiveSlide key={ index } index={ index } activeIndex={ this.state.activeIndex } slide={ slide } />
           )}
         </div>
         <SliderLeftArrow onClick={e => this.goToPrevSlide(e)} />
         <SliderRightArrow onClick={e => this.goToNextSlide(e)} />
-        <div className="slider-indicators">
+        <div className="indicators">
           {this.props.slides.map((slide, index) =>
-            <SliderIndicator key={index} index={index} activeIndex={this.state.activeIndex} isActive={this.state.activeIndex == index} onClick={e => this.goToSlide(index)} />
+            <SliderIndicator key={ index } index={ index } activeIndex={ this.state.activeIndex } isActive={ this.state.activeIndex == index } onClick={e => this.goToSlide(index)} />
           )}
         </div>
       </div>

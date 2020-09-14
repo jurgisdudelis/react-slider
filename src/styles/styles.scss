@@ -2,8 +2,12 @@
 @import './base/settings';
 @import './base/base';
 @import './components/slider';
-@import './components/slider-slide';
-@import './components/slider-arrow';
-@import './components/slider-indicator';
-@import './components/slider-indicators';
+@import './components/slide';
+@import './components/arrow';
+@import './components/indicator';
+@import './components/indicators';
+@import './components/slide-content';
+@import './components/slide-description';
+@import './components/slide-image';
+@import './base/animations';
 

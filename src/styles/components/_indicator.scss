@@ -1,5 +1,5 @@
 //Slider Indicator
-.slider-indicator {
+.indicator {
   display: block;
   width: 16px;
   height: 16px;
@@ -13,15 +13,15 @@
     opacity: .5;
   }
 
-  &--active {
-    &,
-    &:hover {
-       opacity: .75;
-    }
-  }
-
   @media (min-width: $desktop-breakpoint ) {
     width: 22px;
     height: 22px;
+  }
+}
+
+.indicator--active {
+  &,
+    &:hover {
+     opacity: .75;
   }
 }

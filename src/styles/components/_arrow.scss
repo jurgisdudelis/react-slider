@@ -1,12 +1,12 @@
-//Slider Arrow
-.slider-arrow {
+//Arrow
+.arrow {
   position: absolute;
   display: block;
   top: 55%;
+  transform: translateY(-50%);
   color: $secundary-color;
   cursor: pointer;
   opacity: .75;
-  transform: translateY(-50%);
   transition: opacity .3s;
   font-size: 12px;
 
@@ -18,15 +18,15 @@
     opacity: .3;
   }
 
-  &--left {
-    left: 10px;
-  }
-
-  &--right {
-    right: 10px;
-  }
-
   @media (min-width: $desktop-breakpoint ) {
     font-size: 16px;
   }
+}
+
+.arrow--right {
+  right: 10px;
+}
+
+.arrow--left {
+  left: 10px;
 }

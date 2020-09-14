@@ -15,7 +15,7 @@ const sliderData = [
     content: "Item Three",
     description: "Here is a short description of the Item Three",
     img: <img src="https://www.geoffreykentsafari.com/wp-content/uploads/2018/10/bench-in-the-autumn.jpg" alt="Item Three"></img>
-  }, 
+  },
   {
     content: "Item Four",
     description: "Here is a short description of the Item Four",

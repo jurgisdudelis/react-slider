@@ -1,0 +1,20 @@
+//Slide
+.slide {
+  height: 160px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  user-select: none;
+  position:absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+
+  @media (min-width: $desktop-breakpoint ) {
+    height: 300px;
+  }
+}
+
+.slide--active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
