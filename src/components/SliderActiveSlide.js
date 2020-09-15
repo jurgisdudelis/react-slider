@@ -15,7 +15,6 @@ const SliderActiveSlide = (props) => {
             : "slide-content"
         }
       >
-        {" "}
         {props.slide.content}{" "}
       </p>
       <p
