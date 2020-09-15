@@ -60,8 +60,8 @@ Dependecies can be installed using ```npm install``` or```yarn add``` commands.
    "heroku-postbuild": "yarn run build:prod"
  ```
  
- To use scripts ```"serve"``` and ```start```, the production build must be created first using script ```build:prod```.
- Using start script, the production build will be created at localhost:3000
+ To use scripts ```"serve"``` and ```"start"```, the production build must be created first using script ```"build:prod"```.
+ Using ```"start"``` script, the production build will be created at ```localhost:3000```
  ## Start
  
  To start the application run the following commands in terminal:
