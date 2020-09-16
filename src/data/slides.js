@@ -4,12 +4,12 @@ const slides = [
   {
     content: "Item One",
     description: "Here is a short description of the Item One",
-    img: <img src="https://chromethemer.com/wallpapers/chromebook-wallpapers/download/mountain-hills-3840x2160.jpg" alt="Item One"></img>
+    img: <img src="https://i.pinimg.com/originals/e9/3b/4b/e93b4b8c896804240715bd41f07d27cd.jpg" alt="Item One"></img>
   },
   {
     content: "Item Two",
     description: "Here is a short description of the Item Two",
-    img: <img src="https://i.pinimg.com/originals/69/a0/57/69a057b0085c3c98cbff4e05605b2e96.jpg" alt="Item Two"></img>
+    img: <img src="https://images.wallpaperscraft.com/image/netherlands_holland_canal_river_buildings_115333_1920x1080.jpg" alt="Item Two"></img>
   },
   {
     content: "Item Three",
